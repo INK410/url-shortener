@@ -1,7 +1,6 @@
 FROM golang:latest
 WORKDIR /app
 
-COPY go.mod go.sum /app/
 COPY . /app/
 
 env GOPROXY goproxy.cn
